@@ -1182,8 +1182,13 @@ h1,
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  max-width: 540px;
+  max-width: 660px;
   margin: 22px 0 28px;
+}
+
+.driver-app-strip,
+.commerce-app-strip {
+  max-width: 720px;
 }
 
 .theme-entregadores .delivery-app-strip {
@@ -1217,8 +1222,10 @@ h1,
 }
 
 .delivery-app-badge i {
-  width: 28px;
+  width: auto;
+  min-width: 28px;
   height: 28px;
+  padding: 0 7px;
   border-radius: 8px;
   font-size: 0.72rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
@@ -1240,6 +1247,42 @@ h1,
 .app-food99 i {
   color: #06120f;
   background: #ffe000;
+}
+
+.app-99 i {
+  color: #fff;
+  background: linear-gradient(135deg, #ff6a00, #ffd200);
+}
+
+.app-indrive i {
+  color: #101a11;
+  background: #a7ff3d;
+}
+
+.app-blabla i {
+  color: #fff;
+  background: #00aff5;
+}
+
+.app-aiqfome i {
+  color: #fff;
+  background: #7f2cff;
+}
+
+.app-whatsapp i {
+  color: #fff;
+  background: #25d366;
+}
+
+.theme-motoristas .driver-app-strip .delivery-app-badge {
+  border-color: rgba(168, 231, 255, 0.26);
+  background: rgba(7, 17, 29, 0.52);
+}
+
+.theme-comerciantes .commerce-app-strip .delivery-app-badge {
+  color: #241805;
+  border-color: rgba(255, 255, 255, 0.34);
+  background: rgba(255, 255, 255, 0.72);
 }
 
 [data-theme="gold"] .eyebrow,
